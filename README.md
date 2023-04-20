@@ -9,3 +9,8 @@ git add app.js -> a console ágon az app.js-ben történő váltatás hozzáadá
 git commit -m "app.js: console-ba kiírás kész van." -> a változtatások rögzítése a console ágon
 git add . -> readme és a style.css fájlokban történő változatások hozzáadása a staging area-hoz
 got commit -m "style.css: háttérkép megváltozatva." -> a változtatások rögzítése a console ágon
+git checkout main -> váltás main ágra, hogy onnan pusoljak
+git remote add origin https://github.com/guzmo11/git-vizsga0420gbz.git -> saját github repository megadása megadása
+git push -u origin main -> pusholás a saját github repositoryba
+git commit -m "végső readme változtatás mentése." -> utolsó váloztatások rögzítése
+git push -u origin console -> console ág pusholása a saját repositoryba
