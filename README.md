@@ -3,3 +3,4 @@ git clone https://github.com/szabopeter92/git-vizsga.git   -> a projekt klónoz�
 git status -> gyűjtemény státuszának ellenőrzése (legutóbb létrehozott fájlok: readme.md, .gitignore)
 git branch console -> egy új, console nevű ág létrehozása
 git add . -> a main ágon lévő módosítások (2 új fájl) hozzáadása a staging area-hoz
+git commit -m ".gitignore és readme.md fájlok létrehozva" -> eddigi változtatások rögzítése
